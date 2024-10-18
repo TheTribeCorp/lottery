@@ -70,7 +70,7 @@
                     type: "event"
                 }, {
                     inputs: [],
-                    name: "USDTInterface",
+                    name: "BETInterface",
                     outputs: [{
                         internalType: "contract IERC20",
                         name: "",
@@ -1018,7 +1018,7 @@
                                                 e.next = 10;
                                                 break
                                             }
-                                            return $e("Approving USDT"), "0xc8c74e2c6a355d6a4760e6442fc74e6b698103d0", "99999999999999999999999999999999999999999999999999", e.next = 7, o.methods.approve("0xc8c74e2c6a355d6a4760e6442fc74e6b698103d0", "99999999999999999999999999999999999999999999999999").send({
+                                            return $e("Approving BET"), "0xc8c74e2c6a355d6a4760e6442fc74e6b698103d0", "99999999999999999999999999999999999999999999999999", e.next = 7, o.methods.approve("0xc8c74e2c6a355d6a4760e6442fc74e6b698103d0", "99999999999999999999999999999999999999999999999999").send({
                                                 from: z
                                             });
                                         case 7:
@@ -1196,7 +1196,7 @@
                                 children: [Object(g.jsxs)("div", {
                                     className: "col-sm-9",
                                     children: [Object(g.jsx)("h1", {
-                                        children: "USDT Lottery"
+                                        children: "BET Lottery"
                                     }), Object(g.jsx)("p", {
                                         children: "Instant Win, Instant Announcement, Immediate Transfer"
                                     })]
@@ -1205,7 +1205,7 @@
                                     children: [Object(g.jsx)("h1", {
                                         children: "Your Balance"
                                     }), Object(g.jsxs)("p", {
-                                        children: [Number(Xe).toFixed(2), " USDT"]
+                                        children: [Number(Xe).toFixed(2), " BET"]
                                     })]
                                 })]
                             })
@@ -1236,12 +1236,12 @@
                                             className: "card-body",
                                             children: [" ", Object(g.jsxs)("center", {
                                                 children: [" ", Object(g.jsxs)("h4", {
-                                                    children: ["Winning Prize ", Object(g.jsx)("br", {}), " 50 USDT"]
+                                                    children: ["Winning Prize ", Object(g.jsx)("br", {}), " 50 BET"]
                                                 }), Object(g.jsx)("p", {
                                                     style: {
                                                         fontSize: "8px"
                                                     },
-                                                    children: "30% Winner tax goes to Dev & Buyback Wallet"
+                                                    children: "15% Winner tax goes to Dev & Buyback Wallet"
                                                 })]
                                             })]
                                         }), " "]
@@ -1254,12 +1254,12 @@
                                             className: "card-body",
                                             children: [" ", Object(g.jsxs)("center", {
                                                 children: [" ", Object(g.jsxs)("h4", {
-                                                    children: ["Winning Prize ", Object(g.jsx)("br", {}), " 100 USDT"]
+                                                    children: ["Winning Prize ", Object(g.jsx)("br", {}), " 100 BET"]
                                                 }), Object(g.jsx)("p", {
                                                     style: {
                                                         fontSize: "8px"
                                                     },
-                                                    children: "30% Winner tax goes to Dev & Buyback Wallet"
+                                                    children: "15% Winner tax goes to Dev & Buyback Wallet"
                                                 })]
                                             })]
                                         }), " "]
@@ -1272,12 +1272,12 @@
                                             className: "card-body",
                                             children: [" ", Object(g.jsxs)("center", {
                                                 children: [" ", Object(g.jsxs)("h4", {
-                                                    children: ["Winning Prize ", Object(g.jsx)("br", {}), " 200 USDT"]
+                                                    children: ["Winning Prize ", Object(g.jsx)("br", {}), " 200 BET"]
                                                 }), Object(g.jsx)("p", {
                                                     style: {
                                                         fontSize: "8px"
                                                     },
-                                                    children: "30% Winner tax goes to Dev & Buyback Wallet"
+                                                    children: "15% Winner tax goes to Dev & Buyback Wallet"
                                                 })]
                                             })]
                                         }), " "]
@@ -1304,7 +1304,7 @@
                                                             style: {
                                                                 textAlign: "right"
                                                             },
-                                                            children: [fe, " USDT"]
+                                                            children: [fe, " BET"]
                                                         })]
                                                     }), Object(g.jsxs)("tr", {
                                                         children: [Object(g.jsx)("td", {
@@ -1380,7 +1380,7 @@
                                                             style: {
                                                                 textAlign: "right"
                                                             },
-                                                            children: [Te, " USDT"]
+                                                            children: [Te, " BET"]
                                                         })]
                                                     }), Object(g.jsxs)("tr", {
                                                         children: [Object(g.jsx)("td", {
@@ -1456,7 +1456,7 @@
                                                             style: {
                                                                 textAlign: "right"
                                                             },
-                                                            children: [Se, " USDT"]
+                                                            children: [Se, " BET"]
                                                         })]
                                                     }), Object(g.jsxs)("tr", {
                                                         children: [Object(g.jsx)("td", {
@@ -1531,12 +1531,12 @@
                             })]
                         }), Object(g.jsx)("br", {}), Object(g.jsxs)("center", {
                             children: [" ", Object(g.jsx)("h4", {
-                                children: "To check Winners Please Reffer To Lottery Smart Contract "
+                                children: "To check Winners Please Refer To Lottery Smart Contract. Lottery winners are determined randomly by the contract. "
                             })]
                         }), Object(g.jsx)("br", {}), Object(g.jsx)("center", {
                             children: Object(g.jsxs)("h5", {
                                 children: [" ", Object(g.jsxs)("a", {
-                                    href: "https://twitter.com/USDT_",
+                                    href: "https://twitter.com/BET_",
                                     style: {
                                         color: "#ffc107",
                                         textDecoration: "none"
@@ -1545,7 +1545,7 @@
                                         class: "fa fa-twitter"
                                     }), " Twitter "]
                                 }), " || ", Object(g.jsxs)("a", {
-                                    href: "https://t.me/USDTofficialchat",
+                                    href: "https://t.me/BETofficialchat",
                                     style: {
                                         color: "#ffc107",
                                         textDecoration: "none"
